@@ -1,0 +1,103 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Partysifriend
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+
+  <script src="https://kit.fontawesome.com/b80d961313.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mandali&display=swap" rel="stylesheet">
+ </head>
+ <body class="text-gray-800">
+  <!-- Navbar -->
+  <nav class="sticky top-0 bg-white shadow z-50">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+     <a class="flex items-center space-x-3" href="#">
+      <img alt="logo" class="h-10 w-10 rounded-full object-cover" height="80" loading="lazy" src="./img/logo-p.png" width="80"/>
+      <span class="text-2xl font-fjalla text-coklat select-none">
+       PARTYSIFRIEND
+      </span>
+     </a>
+     <div class="hidden md:flex space-x-8 font-mandali text-coklat">
+      <a class="hover:text-coklat transition" href="#home">
+       Home
+      </a>
+      <a class="hover:text-coklat transition" href="#fitur">
+       Fitur
+      </a>
+      <a class="hover:text-coklat transition" href="#katalog">
+       Katalog
+      </a>
+      <a class="hover:text-coklat transition" href="#testimoni">
+       Testimoni
+      </a>
+      <a class="hover:text-coklat transition" href="#faq">
+       FAQ
+      </a>
+      <a class="hover:text-coklat transition" href="#konsultasi">
+       Konsultasi
+      </a>
+     </div>
+     <div class="md:hidden">
+      <button aria-label="Toggle menu" class="text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#e7d6bc]" id="nav-toggle">
+       <i class="fas fa-bars fa-lg">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+   <div class="hidden md:hidden bg-white border-t border-[#6c3517]" id="mobile-menu">
+    <a class="block px-4 py-3 border-b border-gray-200 hover:bg-coklat text-coklat font-mandali" href="#home">
+     Home
+    </a>
+    <a class="block px-4 py-3 border-b border-gray-200 hover:bg-coklat text-coklat font-mandali" href="#fitur">
+     Fitur
+    </a>
+    <a class="block px-4 py-3 border-b border-gray-200 hover:bg-coklat text-coklat font-mandali" href="#katalog">
+     Katalog
+    </a>
+    <a class="block px-4 py-3 border-b border-gray-200 hover:bg-coklat text-coklat font-mandali" href="#testimoni">
+     Testimoni
+    </a>
+    <a class="block px-4 py-3 border-b border-gray-200 hover:bg-coklat text-coklat font-mandali" href="#faq">
+     FAQ
+    </a>
+    <a class="block px-4 py-3 hover:bg-coklat text-coklat font-mandali" href="#konsultasi">
+     Konsultasi
+    </a>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <div id="home"></div>
+  <!-- Fitur Section -->
+  <div id="fitur"></div>
+  <!--katalog Section-->
+  <div id="katalog"></div>
+  <!-- Kenapa Memilih Kami Section -->
+  <div id="kami"></div>
+  <!-- Testimoni Section Carousel -->
+  <div id="testimoni"></div>
+  <!-- FAQ Section -->
+ <div id="faq"></div>
+  <!-- Kontak Section -->
+  <div id="kontak"></div>
+  <!-- Footer -->
+  <div id="footer"></div>
+  
+  <!-- Firebase CDN, taruh di index.html sebelum script.js -->
+<script src="https://www.gstatic.com/firebasejs/12.2.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.2.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.2.1/firebase-storage-compat.js"></script>
+
+ </body>
+</html>

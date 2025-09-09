@@ -1,0 +1,127 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Partysifriend
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script src="https://kit.fontawesome.com/b80d961313.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mandali&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <section class="max-w-7xl mx-auto px-6 py-16" id="faq">
+   <h2 class="text-3xl font-fjalla text-coklat mb-12 text-center">
+    Pertanyaan yang Sering Diajukan
+   </h2>
+   <div class="max-w-3xl mx-auto space-y-4">
+    <div class="border border-coklat rounded-md overflow-hidden">
+     <button aria-controls="faq1-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq1" onclick="toggleFaq('faq1')">
+      Apa metode pembayaran yang tersedia?
+      <i class="fas fa-chevron-down transition-transform duration-300" id="faq1-icon">
+      </i>
+     </button>
+     <div aria-labelledby="faq1" class="px-6 pb-4 hidden" id="faq1-content">
+      <p class="text-gray-700 font-mandali">
+       Kami menerima pembayaran melalui transfer bank, dan e-wallet populer seperti OVO, GoPay, dan Dana.
+      </p>
+     </div>
+    </div>
+    <div class="border border-gray-300 rounded-md overflow-hidden">
+     <button aria-controls="faq2-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq2" onclick="toggleFaq('faq2')">
+      Berapa lama proses pembuatan undangan?
+      <i class="fas fa-chevron-down transition-transform duration-300" id="faq2-icon">
+      </i>
+     </button>
+     <div aria-labelledby="faq2" class="px-6 pb-4 hidden" id="faq2-content">
+      <p class="text-gray-700 font-mandali">
+       Proses biasanya 1–2 hari kerja (tergantung antrian) setelah data lengkap diterima (nama, foto, tanggal acara, lokasi, dll).
+      </p>
+     </div>
+    </div>
+    <div class="border border-gray-300 rounded-md overflow-hidden">
+     <button aria-controls="faq3-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq3" onclick="toggleFaq('faq3')">
+      Apakah ada biaya tambahan setelah undangan jadi?
+      <i class="fas fa-chevron-down transition-transform duration-300" id="faq3-icon">
+      </i>
+     </button>
+     <div aria-labelledby="faq3" class="px-6 pb-4 hidden" id="faq3-content">
+      <p class="text-gray-700 font-mandali">
+       Tidak ada biaya tambahan kecuali kamu meminta fitur atau desain khusus di luar paket standar.
+      </p>
+     </div>
+    </div>
+    <div class="border border-gray-300 rounded-md overflow-hidden">
+     <button aria-controls="faq4-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq4" onclick="toggleFaq('faq4')">
+      Bagaimana cara ordernya?
+      <i class="fas fa-chevron-down transition-transform duration-300" id="faq4-icon">
+      </i>
+     </button>
+     <div aria-labelledby="faq4" class="px-6 pb-4 hidden" id="faq4-content">
+      <p class="text-gray-700 font-mandali">
+       Cukup hubungi kami melalui WhatsApp dengan cara klik tombol order. Setelah itu kirimkan data pengantin, tanggal acara, lokasi, dan foto (jika ada). Kami akan proses undangan sesuai tema yang dipilih.
+      </p>
+     </div>
+    </div>
+    
+    <div class="border border-gray-300 rounded-md overflow-hidden">
+     <button aria-controls="faq5-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq5" onclick="toggleFaq('faq5')">
+      Bisakah undangan ini dikirim menggunakan nama tamu yang ingin diundang?
+      <i class="fas fa-chevron-down transition-transform duration-300" id="faq5-icon">
+      </i>
+     </button>
+     <div aria-labelledby="faq5" class="px-6 pb-4 hidden" id="faq5-content">
+      <p class="text-gray-700 font-mandali">
+       Bisa. Kami sediakan fitur custom nama tamu otomatis pada link undangan, sehingga tiap tamu bisa merasa lebih personal.
+      </p>
+     </div>
+    </div>
+
+<!-- FAQ 6 -->
+<div class="border border-gray-300 rounded-md overflow-hidden">
+  <button aria-controls="faq6-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq6" onclick="toggleFaq('faq6')">
+    Undangannya bisa disebar berapa banyak?
+    <i class="fas fa-chevron-down transition-transform duration-300" id="faq6-icon"></i>
+  </button>
+  <div aria-labelledby="faq6" class="px-6 pb-4 hidden" id="faq6-content">
+    <p class="text-gray-700 font-mandali">
+      Tidak ada batasan. Link undangan bisa disebar ke semua tamu melalui WhatsApp, media sosial, atau email.
+    </p>
+  </div>
+</div>
+
+<!-- FAQ 7 -->
+<div class="border border-gray-300 rounded-md overflow-hidden">
+  <button aria-controls="faq7-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq7" onclick="toggleFaq('faq7')">
+    Bagaimana kalau saya tidak punya foto, apakah bisa?
+    <i class="fas fa-chevron-down transition-transform duration-300" id="faq7-icon"></i>
+  </button>
+  <div aria-labelledby="faq7" class="px-6 pb-4 hidden" id="faq7-content">
+    <p class="text-gray-700 font-mandali">
+      Bisa. Undangan tetap bisa dibuat meskipun tanpa foto. Kami akan menyesuaikan tampilan agar tetap elegan.
+    </p>
+  </div>
+</div>
+
+<!-- FAQ 8 -->
+<div class="border border-gray-300 rounded-md overflow-hidden">
+  <button aria-controls="faq8-content" aria-expanded="false" class="w-full flex justify-between items-center px-6 py-4 text-left font-fjalla text-coklat focus:outline-none focus:ring-2 focus:ring-[#6c3517]" id="faq8" onclick="toggleFaq('faq8')">
+    Apakah undangannya bisa tanpa timeline story atau amplop digital?
+    <i class="fas fa-chevron-down transition-transform duration-300" id="faq8-icon"></i>
+  </button>
+  <div aria-labelledby="faq8" class="px-6 pb-4 hidden" id="faq8-content">
+    <p class="text-gray-700 font-mandali">
+      Bisa. Semua fitur bersifat opsional. Jika tidak ingin menampilkan timeline atau amplop digital, cukup informasikan di awal.
+    </p>
+  </div>
+</div>
+   </div>
+  </section>
+ </body>
+</html>

@@ -1,0 +1,52 @@
+.font-fjalla {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-mandali {
+  font-family: "Mandali", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-coklat {
+  color: #6c3517;
+}
+
+.text-cerah {
+  color: #e7d6bc;
+}
+
+.bg-coklat {
+  background-color: #e7d6bc;
+}
+
+.bg-gelap {
+  background-color: #6c3517;
+}
+
+.ikon {
+  font-size: 25px;
+}
+
+.border-gelap {
+  border-color: #6c3517;
+}
+
+.btn-custom {
+  border: 2px solid #6c3517;
+  color: #6c3517;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.btn-custom.active {
+  background: #6c3517;
+  color: white;
+}
+
+
+.border-coklat {
+  border-color: #e7d6bc;
+}

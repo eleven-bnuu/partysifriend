@@ -1,0 +1,44 @@
+<html class="scroll-smooth" lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>Partysifriend</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/b80d961313.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mandali&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="bg-white py-16" id="testimoni">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-fjalla text-coklat mb-12">
+      Testimoni Pelanggan
+    </h2>
+
+    <!-- Grid Desktop -->
+    <div id="testimoni-grid" class="hidden md:grid md:grid-cols-3 md:gap-6">
+      <!-- Cards bakal di-render dari Firebase -->
+    </div>
+
+    <!-- Carousel Mobile -->
+    <div class="md:hidden relative overflow-hidden rounded-lg shadow-lg">
+      <div class="flex transition-transform duration-500 ease-in-out" id="carousel-inner">
+        <!-- Cards bakal di-render dari Firebase -->
+      </div>
+
+      <!-- Tombol navigasi -->
+      <button id="carousel-prev" class="absolute top-1/2 left-2 -translate-y-1/2 bg-gelap hover:bg-gelap text-white rounded-full p-2 shadow">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button id="carousel-next" class="absolute top-1/2 right-2 -translate-y-1/2 bg-gelap hover:bg-gelap text-white rounded-full p-2 shadow">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+</body>
+</html>
